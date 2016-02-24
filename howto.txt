@@ -1,0 +1,6 @@
+vault init
+vault unseal
+vault unseal
+vault unseal
+vault auth <root token>
+./vault write secret/hello value=world excited=yes
